@@ -13,10 +13,6 @@ h2 {
 	margin-bottom: 30px;
 }
 
-main div {
-	margin-top: 100px;
-}
-
 /** HEADING **/
 a {
 	color: black;
@@ -61,6 +57,10 @@ header {
 /** CONTENT **/
 main p {
 	line-height: 1.7;
+}
+
+.cta {
+	margin-top: 100px;
 }
 
 img {
