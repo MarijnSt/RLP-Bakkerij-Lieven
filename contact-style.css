@@ -1,0 +1,149 @@
+body {
+	font-family: 'Sanchez', serif;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 15px;
+}
+
+h2 {
+	margin-bottom: 30px;
+}
+
+/** HEADING **/
+header {
+	margin-bottom: 50px;
+}
+
+.logo p {
+	font-family: 'Sanchez', serif;
+	font-size: 80px;
+	text-align: center;
+}
+
+.logo p:nth-child(1) {
+	font-size: 30px;
+	margin-bottom: -10px;
+}
+
+.navbar {
+	background-color: #fff !important;
+}
+
+.navbar-light.color-changed {
+	background-color: rgba(241, 176, 9, 0.1) !important;
+}
+
+.nav-item.active {
+	color: rgb(241, 176, 9) !important
+}
+
+.navbar-brand {
+	display: none;
+}
+
+/** CONTENT **/
+main p {
+	line-height: 1.7;
+}
+
+.form-group {
+	margin-top: 50px;
+}
+
+.form-group.last {
+	margin-top: 20px;
+}
+
+.maps {
+	margin-top: 50px;
+}
+
+.img-zoom {
+	position: relative;
+
+	border: 1px solid rgb(241, 176, 9);
+	border-radius: 15px;
+	overflow: hidden;
+	width: 100%;
+	max-width: 750px;
+	margin: 50px 0;
+}
+
+img {
+	max-width: 100%;
+
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+img:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+main a {
+	color: rgb(241, 176, 9) !important;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/** FOOTER **/
+footer {
+	background-color: rgba(241, 176, 9, 0.1);
+	margin-top: 100px;
+}
+
+.adres, .contact {
+	text-align: right;
+}
+
+.fb-link a {
+	color: black;
+	font-size: 30px;
+}
+
+
+/** Media queries **/
+@media only screen and (max-width: 768px) {
+	.logo {
+		display: none;
+	}
+
+	.navbar-brand {
+		display: inline;
+		margin-left: 50px;
+	}
+
+	button {
+		margin-right: 50px;
+	}
+
+	.navbar-nav {
+		width: 100% !important;
+	}
+
+	.img {
+		width: 100%;
+	}
+
+	footer {
+		text-align: center !important;
+	}
+
+	.adres, .contact {
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.navbar-collapse {
+		margin-left: 50px;
+	}
+}
